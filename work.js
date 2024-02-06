@@ -103,3 +103,5 @@ console.log(colors.find(str4))
 
 const selectedColors=colors.slice(1,4)
 console.log(selectedColors)
+
+
