@@ -1,0 +1,11 @@
+fetch('https://jsonplaceholder.typicode.com/posts')
+.then(res=>{
+    if(res.ok){
+        console.log("Successful")
+    }
+    else{
+        console.log('Failed')
+    }
+    })
+.then(data=>console.log(data))
+.catch(error=>console.log('ERROR'))
